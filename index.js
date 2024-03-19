@@ -138,7 +138,7 @@ const fs = require('fs');
 const cors = require('cors');
 
 
-const allowedOrigins = ['http://127.0.0.1:5500'];
+const allowedOrigins = ['https://bdaddress.pages.dev'];
 const corsOptions = {
   origin: function (origin, callback) {
     if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
